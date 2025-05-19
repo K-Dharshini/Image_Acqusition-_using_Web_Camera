@@ -1,12 +1,12 @@
 # Image_Acqusition-_using_Web_Camera
 
 ## Aim:
-To write a python program using OpenCV to capture the image from the web camera and do the following image manipulations.
+To write a python program using OpenCV to capture the image from the web camera and do the following image manipulations.<br>
 
-i) Write the frame as JPG 
-ii) Display the video 
-iii) Display the video by resizing the window
-iv) Rotate and display the video
+i) Write the frame as JPG<br>
+ii) Display the video<br>
+iii) Display the video by resizing the window<br>
+iv) Rotate and display the video<br>
 
 ## Software Used
 Anaconda - Python 3.7
@@ -76,7 +76,7 @@ while True:
     image[height//2:, :width//2]=smaller_frame
     image[:height//2, width//2:]=smaller_frame
     image[height//2:, width//2:]=smaller_frame
-    cv2.imshow('Vaishali',image)
+    cv2.imshow('DHARSHINI',image)
     if cv2.waitKey(1)==ord('q'):
         break
 cap.release()
